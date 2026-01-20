@@ -1,0 +1,470 @@
+{
+  "colleges": [
+    {
+      "id": "col-001",
+      "name": "IIT Delhi",
+      "shortName": "IITD",
+      "type": "Engineering",
+      "city": "Delhi",
+      "area": "Hauz Khas",
+      "address": "Hauz Khas, New Delhi - 110016",
+      "coordinates": { "lat": 28.5456, "lng": 77.1926 },
+      "image": "https://images.unsplash.com/photo-1562774053-701939374585?w=400",
+      "ranking": 1,
+      "popularCourses": ["B.Tech", "M.Tech", "PhD"],
+      "avgRent": { "pg": 12000, "flat": 25000 },
+      "nearbyAreas": ["Hauz Khas", "Munirka", "Katwaria Sarai", "Green Park"],
+      "studentCount": 10000
+    },
+    {
+      "id": "col-002",
+      "name": "Delhi University",
+      "shortName": "DU",
+      "type": "University",
+      "city": "Delhi",
+      "area": "North Campus",
+      "address": "University Enclave, Delhi - 110007",
+      "coordinates": { "lat": 28.6889, "lng": 77.2093 },
+      "image": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400",
+      "ranking": 2,
+      "popularCourses": ["BA", "BSc", "BCom", "MA"],
+      "avgRent": { "pg": 8000, "flat": 18000 },
+      "nearbyAreas": [
+        "Kamla Nagar",
+        "GTB Nagar",
+        "Mukherjee Nagar",
+        "Model Town"
+      ],
+      "studentCount": 132000
+    },
+    {
+      "id": "col-003",
+      "name": "Christ University",
+      "shortName": "CU",
+      "type": "University",
+      "city": "Bangalore",
+      "area": "Hosur Road",
+      "address": "Hosur Road, Bengaluru - 560029",
+      "coordinates": { "lat": 12.9346, "lng": 77.6066 },
+      "image": "https://images.unsplash.com/photo-1592280771190-3e2e4d571952?w=400",
+      "ranking": 3,
+      "popularCourses": ["BBA", "BCom", "BA", "MBA"],
+      "avgRent": { "pg": 15000, "flat": 28000 },
+      "nearbyAreas": ["Koramangala", "HSR Layout", "BTM Layout", "Madiwala"],
+      "studentCount": 28000
+    },
+    {
+      "id": "col-004",
+      "name": "IISc Bangalore",
+      "shortName": "IISc",
+      "type": "Research Institute",
+      "city": "Bangalore",
+      "area": "Malleswaram",
+      "address": "CV Raman Road, Bengaluru - 560012",
+      "coordinates": { "lat": 13.0219, "lng": 77.5671 },
+      "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=400",
+      "ranking": 1,
+      "popularCourses": ["PhD", "MS", "MTech"],
+      "avgRent": { "pg": 12000, "flat": 25000 },
+      "nearbyAreas": [
+        "Malleswaram",
+        "Yeshwanthpur",
+        "Sadashivanagar",
+        "RMV Extension"
+      ],
+      "studentCount": 4000
+    },
+    {
+      "id": "col-005",
+      "name": "Fergusson College",
+      "shortName": "FC",
+      "type": "College",
+      "city": "Pune",
+      "area": "Shivajinagar",
+      "address": "FC Road, Pune - 411004",
+      "coordinates": { "lat": 18.5252, "lng": 73.8405 },
+      "image": "https://images.unsplash.com/photo-1519452575417-564c1401ecc0?w=400",
+      "ranking": 5,
+      "popularCourses": ["BSc", "BA", "BCom", "MSc"],
+      "avgRent": { "pg": 7000, "flat": 15000 },
+      "nearbyAreas": ["FC Road", "JM Road", "Deccan", "Model Colony"],
+      "studentCount": 15000
+    },
+    {
+      "id": "col-006",
+      "name": "Savitribai Phule Pune University",
+      "shortName": "SPPU",
+      "type": "University",
+      "city": "Pune",
+      "area": "Ganeshkhind",
+      "address": "Ganeshkhind Road, Pune - 411007",
+      "coordinates": { "lat": 18.5568, "lng": 73.8261 },
+      "image": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400",
+      "ranking": 4,
+      "popularCourses": ["Engineering", "Science", "Commerce", "Arts"],
+      "avgRent": { "pg": 6000, "flat": 12000 },
+      "nearbyAreas": ["Aundh", "Ganeshkhind", "Shivajinagar", "Kothrud"],
+      "studentCount": 100000
+    },
+    {
+      "id": "col-007",
+      "name": "IIT Bombay",
+      "shortName": "IITB",
+      "type": "Engineering",
+      "city": "Mumbai",
+      "area": "Powai",
+      "address": "Powai, Mumbai - 400076",
+      "coordinates": { "lat": 19.1334, "lng": 72.9133 },
+      "image": "https://images.unsplash.com/photo-1562774053-701939374585?w=400",
+      "ranking": 1,
+      "popularCourses": ["B.Tech", "M.Tech", "PhD", "MBA"],
+      "avgRent": { "pg": 18000, "flat": 35000 },
+      "nearbyAreas": ["Powai", "Hiranandani", "Chandivali", "Andheri East"],
+      "studentCount": 11000
+    },
+    {
+      "id": "col-008",
+      "name": "NMIMS Mumbai",
+      "shortName": "NMIMS",
+      "type": "University",
+      "city": "Mumbai",
+      "area": "Vile Parle",
+      "address": "V.L. Mehta Road, Vile Parle (W), Mumbai - 400056",
+      "coordinates": { "lat": 19.1075, "lng": 72.8376 },
+      "image": "https://images.unsplash.com/photo-1592280771190-3e2e4d571952?w=400",
+      "ranking": 6,
+      "popularCourses": ["BBA", "MBA", "Engineering", "Pharmacy"],
+      "avgRent": { "pg": 16000, "flat": 32000 },
+      "nearbyAreas": ["Vile Parle", "Andheri West", "Juhu", "Santacruz"],
+      "studentCount": 16000
+    },
+    {
+      "id": "col-009",
+      "name": "Jadavpur University",
+      "shortName": "JU",
+      "type": "University",
+      "city": "Kolkata",
+      "area": "Jadavpur",
+      "address": "188, Raja S.C. Mallick Rd, Kolkata - 700032",
+      "coordinates": { "lat": 22.4988, "lng": 88.3714 },
+      "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=400",
+      "ranking": 3,
+      "popularCourses": ["Engineering", "Arts", "Science"],
+      "avgRent": { "pg": 6000, "flat": 12000 },
+      "nearbyAreas": ["Gariahat", "Ballygunge", "Lake Gardens", "Dhakuria"],
+      "studentCount": 12000
+    },
+    {
+      "id": "col-010",
+      "name": "IIT Madras",
+      "shortName": "IITM",
+      "type": "Engineering",
+      "city": "Chennai",
+      "area": "Adyar",
+      "address": "IIT P.O., Chennai - 600036",
+      "coordinates": { "lat": 12.9915, "lng": 80.2336 },
+      "image": "https://images.unsplash.com/photo-1562774053-701939374585?w=400",
+      "ranking": 1,
+      "popularCourses": ["B.Tech", "M.Tech", "MS", "PhD"],
+      "avgRent": { "pg": 10000, "flat": 22000 },
+      "nearbyAreas": ["Velachery", "Adyar", "Taramani", "Guindy"],
+      "studentCount": 9000
+    },
+    {
+      "id": "col-011",
+      "name": "Osmania University",
+      "shortName": "OU",
+      "type": "University",
+      "city": "Hyderabad",
+      "area": "Tarnaka",
+      "address": "University Road, Hyderabad - 500007",
+      "coordinates": { "lat": 17.4126, "lng": 78.5265 },
+      "image": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400",
+      "ranking": 5,
+      "popularCourses": ["BA", "BCom", "BSc", "Engineering"],
+      "avgRent": { "pg": 7000, "flat": 14000 },
+      "nearbyAreas": ["Ameerpet", "SR Nagar", "Tarnaka", "Secunderabad"],
+      "studentCount": 80000
+    },
+    {
+      "id": "col-012",
+      "name": "IIM Ahmedabad",
+      "shortName": "IIMA",
+      "type": "Management",
+      "city": "Ahmedabad",
+      "area": "Vastrapur",
+      "address": "Vastrapur, Ahmedabad - 380015",
+      "coordinates": { "lat": 23.0339, "lng": 72.5295 },
+      "image": "https://images.unsplash.com/photo-1592280771190-3e2e4d571952?w=400",
+      "ranking": 1,
+      "popularCourses": ["MBA", "PGPX", "PhD"],
+      "avgRent": { "pg": 12000, "flat": 25000 },
+      "nearbyAreas": ["Vastrapur", "Bodakdev", "Satellite", "Navrangpura"],
+      "studentCount": 1200
+    },
+    {
+      "id": "col-013",
+      "name": "VIT Vellore",
+      "shortName": "VIT",
+      "type": "Engineering",
+      "city": "Vellore",
+      "area": "Katpadi",
+      "address": "VIT, Vellore - 632014",
+      "coordinates": { "lat": 12.9692, "lng": 79.1559 },
+      "image": "https://images.unsplash.com/photo-1519452575417-564c1401ecc0?w=400",
+      "ranking": 10,
+      "popularCourses": ["B.Tech", "M.Tech", "Integrated MTech"],
+      "avgRent": { "pg": 6000, "flat": 12000 },
+      "nearbyAreas": ["Katpadi", "Vellore Town", "Sathuvachari"],
+      "studentCount": 55000
+    },
+    {
+      "id": "col-014",
+      "name": "NLU Delhi",
+      "shortName": "NLUD",
+      "type": "Law",
+      "city": "Delhi",
+      "area": "Dwarka",
+      "address": "Sector 14, Dwarka, New Delhi - 110078",
+      "coordinates": { "lat": 28.5823, "lng": 77.05 },
+      "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=400",
+      "ranking": 2,
+      "popularCourses": ["BA LLB", "LLM", "PhD"],
+      "avgRent": { "pg": 10000, "flat": 20000 },
+      "nearbyAreas": ["Dwarka", "Janakpuri", "Palam", "Vasant Kunj"],
+      "studentCount": 1000
+    },
+    {
+      "id": "col-015",
+      "name": "BITS Pilani Goa",
+      "shortName": "BITS Goa",
+      "type": "Engineering",
+      "city": "Goa",
+      "area": "Zuarinagar",
+      "address": "NH 17B, Zuarinagar, Goa - 403726",
+      "coordinates": { "lat": 15.392, "lng": 73.879 },
+      "image": "https://images.unsplash.com/photo-1562774053-701939374585?w=400",
+      "ranking": 8,
+      "popularCourses": ["B.E.", "MSc", "M.E."],
+      "avgRent": { "pg": 8000, "flat": 16000 },
+      "nearbyAreas": ["Vasco", "Margao", "Colva", "Panjim"],
+      "studentCount": 4500
+    }
+  ],
+  "cities": [
+    {
+      "id": "city-001",
+      "name": "Delhi",
+      "state": "Delhi",
+      "propertyCount": 2500,
+      "avgRent": 12000,
+      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=400",
+      "popularAreas": [
+        "Hauz Khas",
+        "Kamla Nagar",
+        "Munirka",
+        "Dwarka",
+        "GTB Nagar"
+      ]
+    },
+    {
+      "id": "city-002",
+      "name": "Bangalore",
+      "state": "Karnataka",
+      "propertyCount": 3200,
+      "avgRent": 15000,
+      "image": "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?w=400",
+      "popularAreas": [
+        "Koramangala",
+        "HSR Layout",
+        "BTM Layout",
+        "Whitefield",
+        "Indiranagar"
+      ]
+    },
+    {
+      "id": "city-003",
+      "name": "Pune",
+      "state": "Maharashtra",
+      "propertyCount": 1800,
+      "avgRent": 8000,
+      "image": "https://images.unsplash.com/photo-1580581096469-8afb38de3ed3?w=400",
+      "popularAreas": [
+        "FC Road",
+        "Kothrud",
+        "Hinjewadi",
+        "Wakad",
+        "Viman Nagar"
+      ]
+    },
+    {
+      "id": "city-004",
+      "name": "Mumbai",
+      "state": "Maharashtra",
+      "propertyCount": 2100,
+      "avgRent": 20000,
+      "image": "https://images.unsplash.com/photo-1567157577867-05ccb1388e66?w=400",
+      "popularAreas": ["Powai", "Andheri", "Vile Parle", "Bandra", "Goregaon"]
+    },
+    {
+      "id": "city-005",
+      "name": "Hyderabad",
+      "state": "Telangana",
+      "propertyCount": 1500,
+      "avgRent": 9000,
+      "image": "https://images.unsplash.com/photo-1563448927992-a00cc2e77bc0?w=400",
+      "popularAreas": [
+        "Ameerpet",
+        "Kukatpally",
+        "Gachibowli",
+        "Madhapur",
+        "Hitech City"
+      ]
+    },
+    {
+      "id": "city-006",
+      "name": "Chennai",
+      "state": "Tamil Nadu",
+      "propertyCount": 1200,
+      "avgRent": 10000,
+      "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=400",
+      "popularAreas": ["Velachery", "Adyar", "Anna Nagar", "T Nagar", "OMR"]
+    },
+    {
+      "id": "city-007",
+      "name": "Kolkata",
+      "state": "West Bengal",
+      "propertyCount": 900,
+      "avgRent": 7000,
+      "image": "https://images.unsplash.com/photo-1558431382-27e303142255?w=400",
+      "popularAreas": [
+        "Salt Lake",
+        "Gariahat",
+        "Ballygunge",
+        "Jadavpur",
+        "New Town"
+      ]
+    },
+    {
+      "id": "city-008",
+      "name": "Ahmedabad",
+      "state": "Gujarat",
+      "propertyCount": 800,
+      "avgRent": 8000,
+      "image": "https://images.unsplash.com/photo-1595658658481-d53d3f999875?w=400",
+      "popularAreas": [
+        "Vastrapur",
+        "Navrangpura",
+        "Satellite",
+        "SG Highway",
+        "Bodakdev"
+      ]
+    }
+  ],
+  "amenities": [
+    { "id": "wifi", "name": "WiFi", "icon": "wifi", "category": "basic" },
+    {
+      "id": "ac",
+      "name": "Air Conditioning",
+      "icon": "thermometer",
+      "category": "comfort"
+    },
+    { "id": "parking", "name": "Parking", "icon": "car", "category": "basic" },
+    {
+      "id": "laundry",
+      "name": "Laundry",
+      "icon": "shirt",
+      "category": "basic"
+    },
+    { "id": "gym", "name": "Gym", "icon": "dumbbell", "category": "fitness" },
+    {
+      "id": "food",
+      "name": "Food Included",
+      "icon": "utensils",
+      "category": "food"
+    },
+    { "id": "tv", "name": "TV", "icon": "tv", "category": "entertainment" },
+    {
+      "id": "fridge",
+      "name": "Refrigerator",
+      "icon": "refrigerator",
+      "category": "appliances"
+    },
+    { "id": "geyser", "name": "Geyser", "icon": "flame", "category": "basic" },
+    {
+      "id": "security",
+      "name": "24/7 Security",
+      "icon": "shield",
+      "category": "safety"
+    },
+    { "id": "cctv", "name": "CCTV", "icon": "camera", "category": "safety" },
+    {
+      "id": "power-backup",
+      "name": "Power Backup",
+      "icon": "zap",
+      "category": "basic"
+    },
+    {
+      "id": "study-room",
+      "name": "Study Room",
+      "icon": "book",
+      "category": "study"
+    },
+    {
+      "id": "common-area",
+      "name": "Common Area",
+      "icon": "users",
+      "category": "social"
+    },
+    {
+      "id": "kitchen",
+      "name": "Kitchen",
+      "icon": "chef-hat",
+      "category": "food"
+    },
+    {
+      "id": "balcony",
+      "name": "Balcony",
+      "icon": "sun",
+      "category": "comfort"
+    },
+    {
+      "id": "attached-bathroom",
+      "name": "Attached Bathroom",
+      "icon": "bath",
+      "category": "basic"
+    },
+    {
+      "id": "wardrobe",
+      "name": "Wardrobe",
+      "icon": "archive",
+      "category": "furniture"
+    },
+    { "id": "bed", "name": "Bed", "icon": "bed", "category": "furniture" },
+    {
+      "id": "desk",
+      "name": "Study Desk",
+      "icon": "desk",
+      "category": "furniture"
+    },
+    {
+      "id": "cleaning",
+      "name": "Room Cleaning",
+      "icon": "sparkles",
+      "category": "service"
+    },
+    { "id": "lift", "name": "Lift", "icon": "arrow-up", "category": "basic" },
+    {
+      "id": "water-purifier",
+      "name": "Water Purifier",
+      "icon": "droplet",
+      "category": "basic"
+    },
+    {
+      "id": "washing-machine",
+      "name": "Washing Machine",
+      "icon": "shirt",
+      "category": "appliances"
+    }
+  ]
+}
