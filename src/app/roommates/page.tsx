@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
@@ -157,12 +156,13 @@ function RoommateCard({ roommate }: { roommate: Roommate }) {
         {/* Profile Header */}
         <div className="flex items-start gap-4 mb-4">
           <div className="relative">
-            <Image
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
               src={roommate.image}
               alt={roommate.name}
               width={80}
               height={80}
-              className="rounded-full object-cover w-20 h-20"
+              className="rounded-full object-cover w-20 h-20 bg-gradient-to-br from-blue-100 to-purple-100"
             />
             {roommate.isVerified && (
               <div className="absolute -bottom-1 -right-1 bg-green-500 rounded-full p-1">
