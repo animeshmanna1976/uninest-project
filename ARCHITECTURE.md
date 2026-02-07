@@ -2,7 +2,7 @@
 
 ## System Overview
 
-UniNest is a modern student housing platform built with Next.js 14, designed to connect students with verified properties and landlords across India.
+UniNest is a modern student housing platform built with Next.js 14, designed to connect students with verified properties and landlords across India
 
 ```mermaid
 graph TB
