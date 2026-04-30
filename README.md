@@ -1,6 +1,6 @@
 # 🏠 UniNest - Student Housing Platform
 
-A modern student housing and rental platform built with Next.js 14, designed to help students find their perfect accommodation near colleges and universities in India.
+A modern student housing and rental platform built with Next.js 14, designed to help students find their perfect accommodation near colleges and universities in India
 
 ![UniNest](https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=1200&h=400&fit=crop)
 
