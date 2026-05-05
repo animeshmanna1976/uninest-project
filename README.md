@@ -8,7 +8,7 @@ A modern student housing and rental platform built with Next.js 14, designed to 
 
 ### For Students
 
-- 🔍 **Smart Search** - Search properties by location, college, or keywords
+- 🔍 **Smart Search** - Search properties by location, college, or keywords.
 - 🏘️ **Property Listings** - Browse PGs, hostels, flats, and co-living spaces
 - 📍 **Location-Based Discovery** - Find accommodations near your college
 - ⭐ **Reviews & Ratings** - Read authentic reviews from verified tenants
